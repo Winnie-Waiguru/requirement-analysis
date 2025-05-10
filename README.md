@@ -75,14 +75,27 @@ A **Use Case Diagram** This is a type of diagram that visually represents the in
 ### Benefits of Use Case Diagrams:
 -   Provide clear visual og system functionalities.  
 -   Help organize and identify system requirements.  
--   Facilitate communication amond stakeholders and development team.  
+-   Facilitate communication among stakeholders and the development team.  
   
-
-
 ### Use Case Diagram for Booking System
 
 ![Use Case Diagram](./alx-booking-uc.png)
 
+## Acceptance Criteria  
+They are conditions or requirements that a feature must meet to be accepted by the user, customer, or other stakeholders.   
+
+### Importance of Acceptance Criteria in Requirement Analysis
+- Provide a basis for testing and validation.
+- Help in maintaining quality and meeting user expectations.
+- Ensure all parties have a clear understanding of feature requirements.
+
+### Example: Acceptance Criteria for Checkout Feature in Booking Management System
+- Given the user has selected a listing and entered valid dates,  
+When they click "Book Now" and complete payment,  
+Then the booking should be confirmed and a summary sent via email.
+- Given the user has selected a listing and specific dates,  
+When they proceed to the checkout page,  
+Then the system should display a breakdown of total cost including nightly rate, service fees, taxes, and any additional charges.
 
 
 
